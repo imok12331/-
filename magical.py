@@ -25,7 +25,7 @@ try:
     num6 = int(input('请输入客流：'))
     num7 = int(input('请输入客单价：'))
 except ValueError:
-    print('要输入数字哦！——来自亲爱的路的提醒')
+    print('要输入数字哦！')
     exit()   
 #开始计算
 true = num1+true #月至今实际营业额
