@@ -4,7 +4,7 @@ try:
     ideal = int(input('请输入昨日本月理论达成：'))
     true = int(input('请输入昨日本月实际达成：'))
 except ValueError:
-    print('要输入数字哦！——来自亲爱的路的提醒')
+    print('要输入数字哦！')
     exit()
 A = [aims,ideal,true]
 np.save('out',A)
