@@ -6,7 +6,7 @@ M = datetime.datetime.now().month
 D = datetime.datetime.now().day
 if M == 2:
     if D == 14:
-        print('\n\n♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥\n♥节日快乐♥永远爱你♥\n♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥\n\n')
+        print('\n\n♥\n\n')
 if D == 1:
     aims = float(input('请更新月目标'))
     sche = 0 #月达成归零
